@@ -2,27 +2,30 @@
 <html>
     <head>
         <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport", content="width=display-width, initial-scale=1">
     </head>
     <body>
-            <div>
-                <img src="https://media-exp1.licdn.com/dms/image/C4D03AQH8pdYwhfcXUw/profile-displayphoto-shrink_200_200/0/1610763697213?e=1652313600&v=beta&t=WBuAbM0uPMXkDHO7h6V4o_g132QG4_wRV96e3gy69PQ" />
-                <h1>Devon Johnson</h1>
+        <div class="container">
+            <div class="intro-section">
+                <img class src="https://media-exp1.licdn.com/dms/image/C4D03AQH8pdYwhfcXUw/profile-displayphoto-shrink_200_200/0/1610763697213?e=1652313600&v=beta&t=WBuAbM0uPMXkDHO7h6V4o_g132QG4_wRV96e3gy69PQ" />
+                <h1 id="my-name">Devon Johnson</h1>
                 <h3>Full Stack Web Dev</h3>
                 <button>{{$300,000}}</button>
             </div>
 
-            <div>
-                <div>
+            <div class="about-grid">
+                <div class="i-am">
                 <h1>I am</h1>
-                <ul>
-                    <li>Cloud Pro</li>
-                    <li>SAML</li>
-                    <li>Ruby</li>
+                <ul class="about-list">
+                    <li class="I-am-list">Cloud Pro</li>
+                    <li class="I-am-list">SAML</li>
+                    <li class="I-am-list">Ruby</li>
                 </ul>
                 </div>
-                <div>
+                <div class="i-like">
                 <h1>I like to</h1>
-                <ul>
+                <ul class="about-list">
                     <li>a Cloud guru my way to certs!</li>
                     <li>Learn SAML for job.</li>
                     <li>Learn Ruby for job.</li>
@@ -31,18 +34,20 @@
                 </div>
 
                 <div>
-                    <h3>My Projects</h3>
-                    <img src="https://via.placeholder.com/200x100" />
-                    <img src="https://via.placeholder.com/200x100" />
-                    <img src="https://via.placeholder.com/200x100" />
-                    <img src="https://via.placeholder.com/200x100" />
-
+                    <h3 class="project-heading">My Projects</h3>
+                    <div class="project-grid">
+                    <img class="project-image" src="images/profile-picture.jpg" />
+                    <img class="project-image" src="images/project-2.jpg" />
+                    <img class="project-image" src="images/project-3.jpg" />
+                    <img class="project-image" src="images/project-1.jpg" />
+                    </div>
                 </div>
 
             </div>
-            <div>
+            <div class="links-contacts">
+                <div class="links"></div>
                 <h3>Links</h3>
-                <ul>
+                <ul class="links-list">
                     <li> 
                         <a href="https://github.com">Github</a>
                     </li>
@@ -54,6 +59,9 @@
                     </li>
                 </ul>
             </div>
+
+    
+
             <div>
                 <form action="#">
                     <label for="email">
@@ -65,6 +73,7 @@
                     <input type="submit" value="Send Message">
                 </form>
             </div>
-
+</div>
+</div>
     </body>
 </html>
