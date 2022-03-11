@@ -1,0 +1,86 @@
+
+@media (max-width: 480px) {
+    .about-grid {
+        grid-template-columns: 100%;
+    }
+}
+
+.project-heading {
+    text-align: center;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.project-image {
+    justify-self: center;
+    padding: 4%;
+}
+
+@media (max-width: 650px) {
+    .project-grid {
+        grid-template-columns: 100%;
+    }
+}
+
+.intro-section {
+    text-align: center;
+}
+.about-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.i-am, .i-like {
+    text-align: center;
+}
+
+.about-list {
+    text-align: center;
+    list-style: none;
+}
+.container {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+button {
+    color:green
+}
+h3 {
+    color: blue
+}
+.I-am-list {
+    font-style: italic;
+}
+
+#my-name {
+    font-style: oblique;
+}
+/* 
+element selector = name of element (ex. button, p, h3)
+class selector = .I-am-list 
+ID selector = #my-name (1 off)
+*/
+
+.links-contacts {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.links {
+    justify-self: center;
+}
+
+.links-list {
+    list-style: none;
+    padding: 0;
+}
+
+@media (max-width: 650px) {
+    .links-contacts {
+        grid-template-columns: 100%;
+    }
+}
